@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="topNav"><!--top nav bar and its contents-->
+        <p>Dojonary</p>
+        <input type="text" placeholder="Search...">
+        <button onclick="change_text()" id="loginbutton">Login</button>
+    </div><!--end top nav bar-->
+
+    <div class="row"><!--to flex columns-->
+
+        <div class="col1"><!--left column-->
+            <div class="ninja1-2all"><!--all of top boxes contents-->
+                <div class="ninja1"> <!--box with ninja, noun, plural and button-->
+                    <h2><b>ninja</b></h2>
+                    <p><i>noun</i></p>
+                    <p>Plural: <i>ninjas</i></p>
+                    <button onclick="addLike()" class="likebutton">13 likes</button>
+                </div>
+                <div class="ninjadef1"><!--box for definition of ninja-->
+                    <p>A practitioner skilled in the</p>
+                    <p><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+
+            <div class="ninja1-2all"><!--all of bottom left boxes contents-->
+                <div class="ninja1"><!--same class but 2nd definition of ninja box-->
+                    <h2><b>ninja</b></h2>
+                    <p><i>noun</i></p>
+                    <p>Plural: <i>ninjas</i></p>
+                    <button onclick="addLike()" class="likebutton">37 likes</button>
+                </div>
+                <div class="ninjadef1"><!--box for definition of coding ninja-->
+                    <p>A <a href="#">programmer</a> who breaks</p>
+                    <p>down problems with <a href="#">zen</a>-like</p>
+                    <P>focus</P>
+                </div>
+            </div>
+        </div>
+
+        <div class="col2"><!--right column-->
+            <div class="define"><!--box in right column-->
+                <p>Dojonary is</p>
+                <p>defined by <b>YOU</b></p>
+                <button onclick="this.remove()" id="definitionbutton">Add
+                    Definition</button><!--contains function to remove button on click-->
+            </div>
+        </div>
+
+    </div><!--to flex columns-->
+    
+    <script src="script.js"></script><!--script to link JS-->
+</body>
+
+</html>

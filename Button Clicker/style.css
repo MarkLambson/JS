@@ -1,0 +1,105 @@
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+#loginbutton {
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.topNav p {
+    font-size: 35px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topNav input {
+    align-items: center;
+    height: 25px;
+    width: 200px;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topNav button {
+    align-items: center;
+    height: 28px;
+    width: 60px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.row {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.col1 {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.ninja1-2all {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+}
+
+.ninja1 {
+    border: 2px solid black;
+    border-right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin: 20px 0px 10px 20px;
+}
+
+.likebutton {
+    background-color: goldenrod;
+    box-shadow: 2px 2px black;
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.ninjadef1 {
+    border: 2px solid black;
+    border-left: 0;
+    padding-top: 55px;
+    padding-left: 50px;
+    padding-right: 15px;
+    margin: 20px 10px 10px 0px;
+    width: 250px;
+}
+
+.col2 {
+    flex: 1;
+    flex-direction: column;
+}
+
+.define {
+    border: 2px solid black;
+    height: fit-content;
+    margin: 20px 40px 10px 0px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: visible;
+    text-align: center;
+}
+
+#definitionbutton {
+    background-color: lightgreen;
+    box-shadow: 2px 2px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
