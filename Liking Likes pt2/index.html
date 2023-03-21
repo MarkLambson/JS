@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes pt2</title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+
+<body>
+    <div class="titlebar"><!--------------------network bar-------------------------------->
+        <h1>Network</h1>
+    </div>
+    <h2>Your Feed</h2>
+
+    <div class="main"><!--to hold both columns-->
+        <div class="rightcol"><!--right column-->
+            <div class="jamesdoebox"><!-----------------------------picture box on left------------------------------>
+                <img src="user-circle.png" alt="stock user" class="user">
+                <a href="#">add an avatar</a>
+                <p>James Doe</p>
+            </div>
+        </div><!--right column-->
+
+        <div class="leftcol"><!--left column-->
+
+            <div class="userbox"><!-----------------------Box around content-------------------------->
+                <div class="likestuff"><!----------------content for button and likes-------------------------->
+                    <p>Neil M</p>
+                    <p id="likecounter">9 like(s)</p>
+                    <button onclick="add1()" id="likebutton">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+
+            <div class="userbox"><!-----------------------Box around content-------------------------->
+                <div class="likestuff"><!----------------content for button and likes-------------------------->
+                    <p>Nicole K</p>
+                    <p id="likecounter2">12 like(s)</p>
+                    <button onclick="add1a()" id="likebutton">Like</button>
+                </div>
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+
+            <div class="userbox"><!-----------------------Box around content-------------------------->
+                <div class="likestuff"><!----------------content for button and likes-------------------------->
+                    <p>Jim R</p>
+                    <p id="likecounter3">9 like(s)</p>
+                    <button onclick="add1b()" id="likebutton">Like</button>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>
+
+        </div><!--left column-->
+    </div><!--to hold both columns-->
+
+    <script src="script.js"></script><!--script to link JS-->
+</body>
+
+</html>
